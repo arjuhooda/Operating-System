@@ -13,3 +13,6 @@ In OS command interpreters, the exec built-in command replaces the shell process
 
 Clientprogram.c must print the n numbers.  
 Serverprogram.c must fork a child process which should execute the clientprogram using exec command.
+
+#### Output
+![](output.jpg)
