@@ -12,4 +12,6 @@ This folder includes a C program that uses the concept of Fork. It includes:
   pid_t getpid(void)
 4. Check if the program process id and parent process ids are listed in the ps command.  
 
+#### Output
+![](output.jpg)
   
