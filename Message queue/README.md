@@ -4,7 +4,7 @@ New messages are added to the end of a queue by msgsnd(). Every message has a po
 all of which are specified to msgsnd() when the message is added to a queue. Messages are fetched from a queue by msgrcv(). We don’t have to fetch the messages in a first-in, first-out order. 
 Instead, we can fetch messages based on their type field.
 
-#### Objective
+## Objective
 Communication between independent processes using Message Queues. It contains two programs msgq_server.c and msgq_client.c.  
 
 1. msgq_server -
@@ -18,3 +18,11 @@ Communication between independent processes using Message Queues. It contains tw
   - reads the binary format sent from the server on the queue
 
 The program allows one to many communication i.e, many clients can communicate with the server (client number should be unique).
+
+## Output
+#### 1. Server
+![](server.jpg)
+#### 2. Client 1
+![](client1.jpg)
+#### 3. Client 2
+![](client2.jpg)
